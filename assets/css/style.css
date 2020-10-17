@@ -16,13 +16,13 @@ header {
   color: #ffffff;
 }
 
-.seo {
-  color: #d9dcd6;
-}
-
 header h1 {
   display: inline-block;
   font-size: 48px;
+  color: #ffffff;
+}
+
+.seo {
   color: #d9dcd6;
 }
 
@@ -59,6 +59,32 @@ p {
   object-fit: cover;
 }
 
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Condensed the selectors for the children elements of the main tag. */
+
+main section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+main section img {
+  max-height: 200px;
+}
+
+main section h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
 .float-left {
   float: left;
   margin-right: 25px;
@@ -67,12 +93,6 @@ p {
 .float-right {
   float: right;
   margin-left: 25px;
-}
-
-main {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
 }
 
 aside {
@@ -102,26 +122,6 @@ aside section img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-/* Condensed the selectors for the children elements of the main tag. */
-
-main section {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-main section img {
-  max-height: 200px;
-}
-
-main section h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 footer {
